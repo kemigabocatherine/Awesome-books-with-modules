@@ -1,13 +1,13 @@
 /* eslint-disable no-undef */
 // Main Class
 export default class Main {
-  static displayBooks() {
+  static displayBooks = () => {
     const books = Store.getBooks();
 
     books.forEach((book) => Main.addBookToList(book));
   }
 
-  static addBookToList(book) {
+  static addBookToList = (book) => {
     const collection = document.querySelector('#books-collection');
 
     const element = document.createElement('div');
@@ -22,13 +22,13 @@ export default class Main {
     collection.appendChild(element);
   }
 
-  static deleteBook(el) {
+  static deleteBook = (el) => {
     if (el.classList.contains('delete')) {
       el.parentElement.remove();
     }
   }
 
-  static clearFields() {
+  static clearFields = () => {
     document.querySelector('#new-title').value = '';
     document.querySelector('#new-author').value = '';
   }

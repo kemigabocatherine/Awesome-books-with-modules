@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kemigabocatherine/Awesome-books-with-modules/issues"
   },
-  "homepage": "https://github.com/kemigabocatherine/Awesome-books-with-modules#readme"
+  "homepage": "https://github.com/kemigabocatherine/Awesome-books-with-modules#readme",
+  "dependencies": {
+    "luxon": "^2.3.1"
+  }
 }

@@ -10,7 +10,7 @@ This is a refactored project of the book list app that adds, removes and stores 
 
 ## Live Demo
 
-Click[here](https://kemigabocatherine.github.io/Awesome-books-with-modules/) to view the page.
+Click [HERE](https://kemigabocatherine.github.io/Awesome-books-with-modules/) to view the page.
 
 ## Getting Started
 

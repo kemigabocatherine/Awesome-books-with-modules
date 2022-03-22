@@ -1,9 +1,13 @@
+import { DateTime } from './modules/luxon.js';
+
 import Book from './modules/Booklist.js';
 
 import Main from './modules/content.js';
 
 import Store from './modules/Store.js';
 
+const now = DateTime.now();
+document.querySelector('#date').innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
 // Event: Add a Book
 document.querySelector('#add').addEventListener('click', (e) => {
   // Prevent actual submit
